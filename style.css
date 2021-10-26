@@ -1,7 +1,17 @@
 header{
-  background-color:var(--dk-blue);
+  background-color:var(--dkblue);
 }
 
 :root{
-  --dk-blue: #6c73ad;
+  --dkblue: #6c73ad;
 }
+
+.full-bar::before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100vw;
+    background-color:var(--dkblue);
+    height:150px;
+    }
