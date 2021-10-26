@@ -1,3 +1,7 @@
 header{
-  background-color:blue;
+  background-color:var(--dk-blue);
+}
+
+:root{
+  --dk-blue: #6c73ad;
 }
