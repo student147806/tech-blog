@@ -15,3 +15,11 @@ header{
     background-color:var(--dkblue);
     height:150px;
     }
+.site-header {
+   background-color:var(--header_blue);
+   position: relative;
+   height:150px;
+   display:flex;
+   justify-content: end;
+   overflow:hidden;
+}
