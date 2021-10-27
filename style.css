@@ -8,6 +8,7 @@ header{
 
 :root{
   --dkblue: #6c73ad;
+  --darkblue:
 }
 
 .full-bar::before{
@@ -26,4 +27,39 @@ header{
    display:flex;
    justify-content: start;
    overflow:hidden;
+}
+
+.primary-nav{
+  font-family: sans-serif;
+  padding:10px;
+  align-items:center;
+}
+
+.primary-nav__list{
+    list-style-type: none;
+  margin:0;
+  padding:0;
+  display: flex;
+  justify-content: space-around;
+  height:150px;
+  align-items:center;
+  width:900px;
+}
+
+.primary-nav__link{
+  padding:0 10px; 
+  transition: all 0.2s ease;
+  font-weight:bold;
+  text-decoration:none;
+  color:#4ecad4;
+  font-size:40px;
+  font-family: 'Rock Salt', cursive;
+}
+
+.primary-nav__link:hover{
+  background-color:var(--darkblue);
+  text-decoration:none;
+  color:white;
+  text-shadow: 7px 7px black;
+  font-size:45px;
 }
