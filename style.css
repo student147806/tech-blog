@@ -20,10 +20,10 @@ header{
     height:150px;
     }
 .site-header {
-   background-color:var(--header_blue);
+   background-color:var(--dkblue);
    position: relative;
    height:150px;
    display:flex;
-   justify-content: space-around;
+   justify-content: start;
    overflow:hidden;
 }
