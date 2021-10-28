@@ -18,6 +18,7 @@ header{
    display:flex;
    justify-content: start;
    overflow:hidden;
+   margin:0;
 }
 
 site-header__title{
