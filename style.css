@@ -20,6 +20,10 @@ header{
    overflow:hidden;
 }
 
+site-header__title{
+  line-height:5;
+}
+
 .primary-nav{
   padding:10px;
   align-items:center;
