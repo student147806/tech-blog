@@ -57,3 +57,7 @@ site-header__title{
   text-shadow: 7px 7px black;
   font-size:45px;
 }
+.stickyfooter{
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
